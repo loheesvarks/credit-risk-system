@@ -1,0 +1,33 @@
+{
+  "feature_names": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "age",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "DebtRatio",
+    "MonthlyIncome",
+    "NumberOfOpenCreditLinesAndLoans",
+    "NumberOfTimes90DaysLate",
+    "NumberRealEstateLoansOrLines",
+    "NumberOfTime60-89DaysPastDueNotWorse",
+    "NumberOfDependents"
+  ],
+  "optimal_threshold": 0.7200000000000002,
+  "roc_auc": 0.8676221395074557,
+  "feature_importance": {
+    "RevolvingUtilizationOfUnsecuredLines": 0.30509987473487854,
+    "age": 0.025907987728714943,
+    "NumberOfTime30-59DaysPastDueNotWorse": 0.21652057766914368,
+    "DebtRatio": 0.02099817618727684,
+    "MonthlyIncome": 0.017263539135456085,
+    "NumberOfOpenCreditLinesAndLoans": 0.02776975929737091,
+    "NumberOfTimes90DaysLate": 0.2301253229379654,
+    "NumberRealEstateLoansOrLines": 0.05498989671468735,
+    "NumberOfTime60-89DaysPastDueNotWorse": 0.087972491979599,
+    "NumberOfDependents": 0.01335237082093954
+  },
+  "default_lgd": 0.45,
+  "cost_fp": 1,
+  "cost_fn": 5,
+  "training_samples": 120000,
+  "default_rate": 0.06684
+}
